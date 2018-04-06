@@ -7,5 +7,8 @@ diydht: main.go
 test:
 	go test -v
 
+benchmark:
+	go test -v -bench=.
+
 deps:
 	go get .
